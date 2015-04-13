@@ -1,30 +1,18 @@
 ---
 layout: page
-title: About
+title: About Virtual DOM
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## What is virtual DOM?
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Almost everything viewed in a browser window is defined by DOM elements, a set of parts like text, pictures and decorative elements, styled and arranged using CSS. DOM is accessible to JavaScript, and so any web-app renders its internal state using DOM elements to display it to the user. But browser DOM happens to be slow and unwieldy, making it hard to write good maintainable code that's also snappy and fast. This is a compounding problem, as user interfaces get more and more complex!
 
-There are currently two themes built on Poole:
+Virtual DOM is a fast, lightweight, immutable equivalent of native browser DOM. It is a data structure, that's all. There are libraries like [virtual-dom](https://github.com/Matt-Esch/virtual-dom), [ReactJS](https://github.com/facebook/react) and others that convert it to a user-visible presentation - virtual DOM maps one-to-one to the resulting browser DOM.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+So why bother?
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Virtual DOM is immutable and fast, and the browser screen can be updated just by re-generating the virtual DOM tree instead of tweaking and tracking updates to the slow browser DOM. **Clean, modular, testable front-end application code is now vastly simpler to write but stays just as performant.**
 
-## Setup
+Moreover, virtual DOM has become a lean and stable interchange format that allows to compose application modules and external libraries. **A rich ecosystem of 3rd party virtual DOM components and user interface widgets is now possible without framework lock-in and learning curve.**
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+[This gallery](//virtualdom.gallery) will feature interesting and useful new virtual DOM components as well as links to guides and libraries for writing them and embedding them in larger frameworks like AngularJS, Backbone, EmberJS and ReactJS. Contributions and submissions are encouraged!
