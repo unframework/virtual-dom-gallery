@@ -7,20 +7,14 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Virtual DOM Gallery
+tagline:          'Showcase for reusable components using virtual DOM'
+description:      'Showcasing the powerful new way to write reusable components enabled by <a href="https://github.com/Matt-Esch/virtual-dom">virtual DOM</a>.'
+url:              http://virtualdom.gallery
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Nick Matantsev'
+  url:            https://twitter.com/unframework
 
 paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
