@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -75,6 +75,10 @@ html {
   color: #202020;
 }
 
+.sidebar h1 {
+  margin-left: -0.1em;
+}
+
 .sidebar h1 a:hover {
   color: #404040;
   text-decoration: none;
@@ -85,8 +89,11 @@ html {
   color: #202020;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: "Abril Fatface", serif;
+  font-family: "Open Sans", serif;
+  font-style: italic;
   font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: -0.05em;
 }
 
 /* Sidebar nav */
@@ -130,6 +137,12 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    letter-spacing: -0.05em;
 }
 
 @media (min-width: 48em) {
