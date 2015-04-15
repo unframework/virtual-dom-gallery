@@ -84,6 +84,10 @@ html {
   text-decoration: none;
 }
 
+.sidebar hr {
+    border-color: #ccc;
+}
+
 /* About section */
 .sidebar-about h1 {
   color: #202020;
@@ -143,6 +147,10 @@ h1 {
     font-family: 'Open Sans';
     font-weight: 800;
     letter-spacing: -0.05em;
+}
+
+.light {
+    opacity: 0.3;
 }
 
 @media (min-width: 48em) {
