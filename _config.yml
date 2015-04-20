@@ -13,6 +13,8 @@ description:      'Showcasing the powerful new way to write reusable components 
 url:              http://virtualdom.gallery
 baseurl:          /
 
+host:             0.0.0.0
+
 author:
   name:           'Nick Matantsev'
   url:            https://twitter.com/unframework
