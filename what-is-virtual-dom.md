@@ -17,4 +17,4 @@ Virtual DOM is immutable and fast, and the browser screen can be updated just by
 
 Moreover, virtual DOM has become a lean and stable interchange format that allows to compose application modules and external libraries. **A rich ecosystem of 3rd party virtual DOM components and user interface widgets is now possible without framework lock-in and learning curve.**
 
-[This gallery](//virtualdom.gallery) will feature interesting and useful new virtual DOM components as well as links to guides and libraries for writing them and embedding them in larger frameworks like AngularJS, Backbone, EmberJS and ReactJS. Contributions and submissions are encouraged!
+The [resources page](//virtualdom.gallery/resources/) provides more background on componentizing user interfaces for the modern Web.
