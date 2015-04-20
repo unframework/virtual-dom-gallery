@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Virtual DOM Gallery
 tagline:          'Showcase for reusable components using virtual DOM'
-description:      'Showcasing the powerful new way to write reusable components enabled by <a href="//virtualdom.gallery/what-is-virtual-dom/">virtual DOM</a>.'
+description:      'Showcasing new reusable components enabled by <a href="//virtualdom.gallery/what-is-virtual-dom/">virtual DOM</a>.'
 url:              http://virtualdom.gallery
 baseurl:          /
 
